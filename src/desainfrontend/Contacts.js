@@ -25,6 +25,7 @@ export default class Contacts extends Component {
                 </Button>
                 </Form>
                 </Container>
+                {/* khusus untuk fitur back to top */}
                 <a href="/" className="btn btn-primary float-right mr-4">
                 <i class='fas fa-angle-up'>Top</i>
                 </a>
