@@ -4,7 +4,7 @@ import {Jumbotron} from 'react-bootstrap';
 export default class Jumbo extends Component {
     render() {
         const mystyle = {
-            backgroundImage: 'url('+'https://code.visualstudio.com/assets/docs/nodejs/reactjs/peek-definition.png'+')',
+            backgroundImage: 'url("https://code.visualstudio.com/assets/docs/nodejs/reactjs/peek-definition.png")',
             backgroundSize : 'cover',
             backgroundRepeat  : 'no-repeat',
             height: 320,

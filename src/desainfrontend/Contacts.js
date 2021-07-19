@@ -4,9 +4,9 @@ import { Container , Form , Button } from 'react-bootstrap'
 export default class Contacts extends Component {
     render() {
         return (
-            <div id="contacts" style={{paddingTop: '50px',paddingBottom: '50px'}}>
+            <div id="contacts" style={{paddingTop: '100px',paddingBottom: '100px'}}>
                 <Container>
-                <h1 className="text-center mt-3 pt-3">Contact</h1>
+                <h1 className="text-center">Contact</h1>
                 <Form>
                 <Form.Group controlId="nama">
                 <Form.Label>Nama</Form.Label>
@@ -25,6 +25,9 @@ export default class Contacts extends Component {
                 </Button>
                 </Form>
                 </Container>
+                <a href="/" className="btn btn-primary float-right mr-4">
+                <i class='fas fa-angle-up'>Top</i>
+                </a>
             </div>
         )
     }
