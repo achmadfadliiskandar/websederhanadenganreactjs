@@ -3,6 +3,7 @@ import {Container,Row , Col} from 'react-bootstrap'
 export default class About extends Component {
     render() {
         const btop = {
+            // for css
             position: 'sticky'
         }
         return (
